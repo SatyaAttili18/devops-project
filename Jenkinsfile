@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    REPO_URL = 'https://github.com/Gollajahnavi78-gj/devops-project.git'
+    REPO_URL = 'https://github.com/SatyaAttili18/devops-project.git'
     IMAGE    = 'demo-app'
     TAG      = "build-${env.BUILD_NUMBER}"
   }

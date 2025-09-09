@@ -3,7 +3,7 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello from Jahnavi - DevOps Project!\n');
+  res.end('Hello from Satya - DevOps Project!\n');
 });
 
 server.listen(port, () => {
